@@ -1,0 +1,1034 @@
+#Index.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>E - Zone Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="best">Best Deals on Latest Electronics</h2>
+        <p class="pp">Shop our collection of top electronics at unbeatable prices!</p>
+        <a href="product.html" class="btn">Shop Now</a>
+    </section>
+
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+        
+            <div class="product">
+                <img src="img_7.jpg" alt="Product 1">
+                <h3>Smartphone</h3>
+                <h3>49k</h3>
+                <a href="smartohone.html" class="btn">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="modern-side-by-stainless-steel-260nw-1080200909.webp" alt="Product 2">
+                <h3>Refrigetor</h3>
+                <h3>64k</h3>
+                <a href="refrigerator.html" class="btn">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="fame-electrical-ceiling-fan.jpg" alt="Product 3">
+                <h3>Fan</h3>
+                <h3>10k</h3>
+                <a href="fan.html" class="btn">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="cooler.jpg" alt="Product 4">
+                <h3>Cooler</h3>
+                <h3>10k</h3>
+                <a href="cooler.html" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electronics Shop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+#Contact.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+#Cooler.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="PRODUCT.CSS">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the E-Zone Shop</h1>
+    </header>
+
+    <!-- Laptops Section -->
+    <section id="laptops">
+        <h2>NOVO</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="cooler1.jpg" alt="Laptop 1">
+                <h3> NOVO COOLER</h3>
+                <p>10k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="cooler2.webp" alt="Laptop 2">
+                <h3>NOVO9 COOLER</h3>
+                <p>10k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="cooler3.jpg" alt="Laptop 3">
+                <h3>NOVO4 COOLER</h3>
+                <p>10k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Phones Section -->
+    <section id="mobiles">
+        <h2>VOLTAS</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="cooler4.webp" alt="Mobile 1">
+                <h3>VOLTAS</h3>
+                <p>13k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="cooler5.webp" alt="Mobile 2">
+                <h3>VOLTAS EPICOOL</h3>
+                <p>11k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="cooler6.webp" alt="Mobile 3">
+                <h3>VOLTAS COOLBREEZE</h3>
+                <p>9k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories">
+        <h2>BAJAJ</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="cooler7.webp" alt="Accessory 1">
+                <h3>BAJAJ </h3>
+                <p>8k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="cooler8.jpg" alt="Accessory 2">
+                <h3>BAJAJ AIR</h3>
+                <p>10k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="cooler10.webp" alt="Accessory 3">
+                <h3>BAJAJ HIGH</h3>
+                <p>1Ok</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electronic Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+#Fan.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="PRODUCT.CSS">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the E-Zone Shop</h1>
+    </header>
+
+    <!-- Laptops Section -->
+    <section id="laptops">
+        <h2>CROMPTION</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="fanbajaj1.webp" alt="Laptop 1">
+                <h3>crompton breeze</h3>
+                <h3>4k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="fame-electrical-ceiling-fan.jpg" alt="Laptop 2">
+                <h3>crompton air</h3>
+                <h3>3k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="fanbajaj3.jpg" alt="Laptop 3">
+                <h3>crompton high</h3>
+                <h3>5k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Phones Section -->
+    <section id="mobiles">
+        <h2>BAJAJ</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="fan5.webp" alt="Mobile 1">
+                <h3>Bajaj o</h3>
+                <h3>3k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="fan6.webp" alt="Mobile 2">
+                <h3>    Bajaj p</h3>
+                <h3>6k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="fan7.webp" alt="Mobile 3">
+                <h3>Bajaj s</h3>
+                <h3>5k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories">
+        <h2>PHILIPS</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="fan8.webp" alt="Accessory 1">
+                <h3>Philips p</h3>
+                <h3>4k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="fanbajaj1.webp" alt="Accessory 2">
+                <h3>Phililps iL</h3>
+                <h3>2k</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="fan6.webp" alt="Accessory 3">
+                <h3>Philips q</h3>
+                <p><h3>1k</h3></p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electronic Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+#Login.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form action="/submit" method="POST">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            <!-- <center>
+                <button type="submit">Login</button>
+            </center>            -->
+           <CEnter><a href="index.html"><button type="submit" class="btn" onclick="openPopup()">Login</button></a></CEnter> 
+        <div class="popup" id="popup">
+            <img src="ok-1976099_1280.webp" >
+            <h2>Thank You</h2>
+            <p>Your details has been successfully submitted. Thanks </p>
+            <button type="button" onclick="closePopup()" >OK</button>
+        </div>
+    </div>
+     <div class="loader"></div>
+        </form>
+         </form>
+        </div>
+    </div> 
+    <script src="PROJECT.js"></script>
+</body>
+</html>
+
+#Product.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="PRODUCT.CSS">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the E-Zone Shop</h1>
+    </header>
+
+    <!-- Laptops Section -->
+    <section id="laptops">
+        <h2>Laptops</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="mack.webp" alt="Laptop 1">
+                <h3>Macbook</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="hp.webp" alt="Laptop 2">
+                <h3>Lenovo</h3>
+                <p>10k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="dell.webp" alt="Laptop 3">
+                <h3>Dell</h3>
+                <p>60k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Phones Section -->
+    <section id="mobiles">
+        <h2>Mobile Phones</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="mobileproduct.jpeg" alt="Mobile 1">
+                <h3>OPPO</h3>
+                <p>130k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="ihpne.webp" alt="Mobile 2">
+                <h3>iphone</h3>
+                <p>60k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="samsung.webp" alt="Mobile 3">
+                <h3>SAMSUNG</h3>
+                <p>50k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories">
+        <h2>Headphone</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="sony headphone.jpg" alt="Accessory 1">
+                <h3>SONY</h3>
+                <p>25k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="jblheadphone.webp" alt="Accessory 2">
+                <h3>JBL</h3>
+                <p>1k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="boatheadphone.webp" alt="Accessory 3">
+                <h3>BOAT</h3>
+                <p>1k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electronic Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+#Refrigerator.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="PRODUCT.CSS">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the E-Zone Shop</h1>
+    </header>
+
+    <!-- Laptops Section -->
+    <section id="laptops">
+        <h2>HAIER</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="HAIR.webp" alt="REALME">
+                <h3>HAIER </h3>
+                <P>15K</P>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="HAIR190.webp" alt="IQOO">
+                <h3>HAIER</h3>
+                <p>10k</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="IFB.webp" alt="LAVA">
+                <h3>HAIER</h3>
+                <p>60k</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Phones Section -->
+    <section id="mobiles">
+        <h2>WHIRLPOOL</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="WHIRLOPOOL25.webp" alt="Mobile 1">
+                <h3>WHIRLPOOL</h3>
+                <p>13k</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="WHIRLPPOL2.webp" alt="Mobile 2">
+                <h3>WHIRLPOOL</h3>
+                <p>24k</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="WHIRLOPOOL.jpg" alt="Mobile 3">
+                <h3>WHIRLPOOL</h3>
+                <p>15K</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories">
+        <h2>LG</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="LG3.webp" alt="POCO65">
+                <h3>LG</h3>
+                <p>25k</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="LG1.webp" alt="REALME61">
+                <h3>LG</h3>
+                <p>15K</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="LG2.jpg" alt="Accessory 3">
+                <h3>LG</h3>
+                <p>10k</p>
+                <button><a href="smartohone.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electronic Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+#Smartphone.html:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Shop</title>
+    <link rel="stylesheet" href="PRODUCT.CSS">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the E-Zone Shop</h1>
+    </header>
+
+    <!-- Laptops Section -->
+    <section id="laptops">
+        <h2>phone</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="realme.webp" alt="REALME">
+                <h3>REALME</h3>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="IOQQ.webp" alt="IQOO">
+                <h3>IQOO</h3>
+                <p>10k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="LAVA.jpg" alt="LAVA">
+                <h3>LAVA</h3>
+                <p>60k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Phones Section -->
+    <section id="mobiles">
+        <h2>Mobile Phones</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="mobileproduct.jpeg" alt="Mobile 1">
+                <h3>OPPO</h3>
+                <p>130k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="ihpne.webp" alt="Mobile 2">
+                <h3>iphone</h3>
+                <p>60k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="samsung.webp" alt="Mobile 3">
+                <h3>SAMSUNG</h3>
+                <p>50k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories">
+        <h2>Headphone</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="POCO65.webp" alt="POCO65">
+                <h3>POCO65</h3>
+                <p>25k</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="REALME61.webp" alt="REALME61">
+                <h3>REALME61</h3>
+                <p>15K</p>
+                <button><a href="login.html" class="btn">Buy Now</a></button>
+            </div>
+            <div class="box">
+                <img src="realme.webp" alt="Accessory 3">
+                <h3>REALME</h3>
+                <p>1k</p>
+                <a href="login.html" class="btn"><BUtton>Buy Now</BUtton></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electronic Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+#Style.css:
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    background-image: url("backgroundphoto3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
+    text-align: center;
+
+
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background-color: #555;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 1.5rem;
+
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.product p {
+    margin: 0.5rem 0;
+}
+
+.product .btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.product .btn:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: aqua;
+
+}
+.product:hover {
+    transform: scale(1.05);
+}
+.pp{
+    color: white;
+}
+.best{
+    color: white;
+}
+
+#Product.css:
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0073e6;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+button{
+    background-color: green;
+    height: 50px;
+    width: 80px;
+    border: green;
+
+}
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Login.css:
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    background-image: url(loginbackfround3.webp);
+    
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 50px; 
+}
+
+.login-form {
+    background-color: rgb(33, 162, 227);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid 
+}
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    column-gap: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%)scale(1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fb649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;}
+    
+#contact.css:
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    background-image: url(contactusbackground.jpg);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#Project.js:
+
+{
+let popup=document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup")
+}
+function closePopup(){
+    popup.classList.remove("open-popup")
+}}
